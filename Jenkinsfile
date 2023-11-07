@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat '"D:/training/Basic CI CD Pipeline Using Jenkins (6-7 Nov 2023)/test.bat"'
+                bat '"D:/training/Basic CI CD Pipeline Using Jenkins (6-7 Nov 2023)/wallet.bat"'
             }
         }
         stage('Test') {
